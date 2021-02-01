@@ -1,0 +1,20 @@
+.add-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+input {
+    margin: 0 10px;
+    padding: 3px;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
