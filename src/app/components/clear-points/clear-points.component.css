@@ -1,0 +1,13 @@
+.clear-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clear-form .btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.square-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.square-item .point {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.square-item p {
+    display: inline-block;
+}

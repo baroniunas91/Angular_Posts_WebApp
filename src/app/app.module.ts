@@ -9,6 +9,14 @@ import { PointItemComponent } from './components/point-item/point-item.component
 import { AddPointComponent } from './components/add-point/add-point.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
+import { ClearPointsComponent } from './components/clear-points/clear-points.component';
+import { SquaresComponent } from './components/squares/squares.component';
+import { SquareItemComponent } from './components/square-item/square-item.component';
+import { SavePointsComponent } from './components/save-points/save-points.component';
+import { SavedListsComponent } from './components/saved-lists/saved-lists.component';
+import { SavedListsItemComponent } from './components/saved-lists-item/saved-lists-item.component';
+import { SavedPointComponent } from './components/saved-point/saved-point.component';
+import { DeteleSavedListComponent } from './components/detele-saved-list/detele-saved-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +25,15 @@ import { AboutComponent } from './components/about/about.component';
     PointItemComponent,
     AddPointComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    ClearPointsComponent,
+    SquaresComponent,
+    SquareItemComponent,
+    SavePointsComponent,
+    SavedListsComponent,
+    SavedListsItemComponent,
+    SavedPointComponent,
+    DeteleSavedListComponent
   ],
   imports: [
     BrowserModule,

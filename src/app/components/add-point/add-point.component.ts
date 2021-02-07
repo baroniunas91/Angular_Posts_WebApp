@@ -19,7 +19,7 @@ export class AddPointComponent implements OnInit {
   onSubmit() {
     const point = {
       xcoordinate: this.xcoordinate,
-      ycoordinate: this.xcoordinate
+      ycoordinate: this.ycoordinate
     }
     this.addPoint.emit(point);
   }

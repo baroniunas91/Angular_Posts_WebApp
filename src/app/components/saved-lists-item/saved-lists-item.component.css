@@ -1,0 +1,31 @@
+.saved-lists-item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.saved-lists-item .title{
+    margin: 0;
+    padding: 10px 0 20px;
+    font-size: 20px;
+}
+
+.saved-lists-item .title span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.delete-saved-list {
+    margin: 15px 0 0;
+}
+
+.delete-saved-list .btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

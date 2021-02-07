@@ -1,0 +1,8 @@
+<div class="saved-lists">
+    <h1 class="title">Saved lists of points</h1>
+    <app-saved-lists-item
+    *ngFor="let item of lists"
+    [item] = "item"
+    (deleteList)="deleteList($event)"
+    ></app-saved-lists-item>
+</div>

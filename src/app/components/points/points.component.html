@@ -1,4 +1,6 @@
 <app-add-point (addPoint)="addPoint($event)"></app-add-point>
+<app-save-points (savePoints)="savePoints($event)"></app-save-points>
+<app-clear-points (clearPoints)="clearPoints()"></app-clear-points>
 <app-point-item 
 *ngFor="let point of points" 
 [point] = "point"

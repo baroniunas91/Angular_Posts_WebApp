@@ -1,0 +1,10 @@
+<div class="saved-lists-item">
+    <p class="title">Saved list title: <span>{{ item.title }}</span></p>
+    <app-saved-point
+    *ngFor="let point of item.pointsLists"
+    [point] = "point"
+    ></app-saved-point>
+    <form class="delete-saved-list" (ngSubmit)="onSubmit()">
+        <input type="submit" value="Delete List" class="btn">
+    </form>
+</div>

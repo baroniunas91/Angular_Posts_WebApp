@@ -1,0 +1,9 @@
+.point {
+    display: inline-block;
+    text-align: center;
+}
+.point p {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0;
+}
